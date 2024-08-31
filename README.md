@@ -29,3 +29,11 @@ Extract the value of each identified diagnosis on the handwritten form.
 
 <img width="600" alt="Screenshot 2024-08-31 at 8 35 01 PM" src="https://github.com/user-attachments/assets/de5f95c6-2244-47e5-8441-e48db07602f3">
 
+## Input
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/cc9b36ca-5c50-4771-9378-164688af8883">
+
+## Output
+In hb.csv
+
+<img width="1267" alt="image" src="https://github.com/user-attachments/assets/6dbb15bf-918b-4eb9-ae7c-aa7c8dd1aa24">
+
