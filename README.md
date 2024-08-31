@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 
 ## Usage
-1.Configure paths: Edit the image_path and output_csv variables in main.py to specify the path to your image file and the desired output CSV file.
+1. Configure paths: Edit the image_path and output_csv variables in main.py to specify the path to your image file and the desired output CSV file.
 
 2. Run the script
 
