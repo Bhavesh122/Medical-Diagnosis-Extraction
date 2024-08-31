@@ -5,14 +5,53 @@
 
 # OCR-Based Provisional Diagnosis Extraction
 
-This project extracts text from images, specifically focusing on identifying and extracting provisional diagnoses. The extracted text is cleaned using regular expressions to ensure accuracy. Finally, the results are saved to a CSV file.
+This project extracts text from medical images using Optical Character Recognition (OCR), processes the extracted text to find provisional diagnoses, and saves the results to a CSV file.
 
-## Features
+## Prerequisites
 
-- **Text Extraction**: Uses `pytesseract` to extract text from images.
-- **Text Cleaning**: Regular expressions are applied to correct common OCR errors.
-- **Provisional Diagnosis Extraction**: Searches for the provisional diagnosis in the extracted text.
-- **CSV Output**: Saves the extracted data to a CSV file.
+### 1. Tesseract OCR
+
+This project requires Tesseract OCR for text extraction. Follow the installation instructions for your operating system:
+
+- **Windows**: Download the installer from [this link](https://github.com/UB-Mannheim/tesseract/wiki) and follow the installation instructions. Ensure that Tesseract is added to your system's PATH.
+- **macOS**: Install using Homebrew with:
+  ```bash
+  brew install tesseract
+- **Linux** Install using your package manager. For Debian-based systems:
+            sudo apt-get install tesseract-ocr
+
+### 2. Python Dependencies
+pip install -r requirements.txt
+
+## Installation
+
+Clone the repository:     
+
+git clone https://github.com/Bhavesh122/PS2-Medical-Diagnosis-Extraction.git cd PS2-Medical-Diagnosis-Extraction
+
+Install the dependencies:
+
+pip install -r requirements.txt
+
+
+#Usage
+Prepare your image and output CSV file paths: Update the image_path and output_csv variables in main.py to match your image file and desired output CSV file.
+
+Run the script:
+
+python main.py
+
+
+Example
+Set the paths in main.py as follows:
+
+
+if __name__ == "__main__":
+    image_path = "/path/to/your/image.png"
+    output_csv = "output.csv"
+    main(image_path, output_csv)
+
+Replace /path/to/your/image.png with the path to your image file and output.csv with your desired output CSV file name
 
 ## Requirements
 
@@ -20,6 +59,8 @@ This project extracts text from images, specifically focusing on identifying and
 - [pytesseract](https://pypi.org/project/pytesseract/)
 - [Pillow](https://pypi.org/project/Pillow/)
 - [pandas](https://pypi.org/project/pandas/)
+
+
 
 
 ## Problem Statement
