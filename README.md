@@ -1,3 +1,6 @@
+# Team Name: Cyber Spartans
+
+
 # OCR-Based Provisional Diagnosis Extraction
 
 This project extracts text from images, specifically focusing on identifying and extracting provisional diagnoses. The extracted text is cleaned using regular expressions to ensure accuracy. Finally, the results are saved to a CSV file.
