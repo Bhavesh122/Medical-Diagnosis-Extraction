@@ -1,4 +1,4 @@
-Team Name: Cyber Spartans
+# Team Name: Cyber Spartans
 # Chama Bhavesh Reddy| 2025 | VIT VELLORE
 # Avala Ajitesh Reddy | 2025 | VIT VELLORE
 
