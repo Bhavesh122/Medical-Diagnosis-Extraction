@@ -1,5 +1,3 @@
-This project requires the following Python packages to run.
-
 pytesseract==0.4.0
 Pillow==9.4.0
 pandas==2.1.0
