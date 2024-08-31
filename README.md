@@ -15,3 +15,17 @@ This project extracts text from images, specifically focusing on identifying and
 - [pytesseract](https://pypi.org/project/pytesseract/)
 - [Pillow](https://pypi.org/project/Pillow/)
 - [pandas](https://pypi.org/project/pandas/)
+
+
+## Problem Statement
+
+Medical Diagnosis Extraction
+1. Description
+Develop a solution to accurately extract medical diagnoses from handwritten medical forms to digitize medical forms and improve the efficiency as well as accuracy of claims processing.
+
+2. Requirements
+Implement a system to recognize and identify medical diagnoses from handwritten input medical forms.
+Extract the value of each identified diagnosis on the handwritten form.
+
+<img width="600" alt="Screenshot 2024-08-31 at 8 35 01 PM" src="https://github.com/user-attachments/assets/de5f95c6-2244-47e5-8441-e48db07602f3">
+
