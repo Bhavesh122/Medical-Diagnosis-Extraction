@@ -65,7 +65,7 @@ def main(image_path, output_csv):
 
 if __name__ == "__main__":
 
-    image_path = "/Users/bhaveshreddy/Downloads/PS2-Samples-HackRX5 2/Sample7.png"
-    output_csv = "hb.csv"
+    image_path = "/Users/bhaveshreddy/Downloads/PS2-Samples-HackRX5 2/Sample7.png" # This is the location of that photos we should change it accordingly 
+    output_csv = "hb.csv" # This is the output,we can change the path here.
     
     main(image_path, output_csv)
