@@ -27,8 +27,6 @@ Develop a solution to accurately extract medical diagnoses from handwritten medi
 Implement a system to recognize and identify medical diagnoses from handwritten input medical forms.
 Extract the value of each identified diagnosis on the handwritten form.
 
-<img width="600" alt="Screenshot 2024-08-31 at 8 35 01 PM" src="https://github.com/user-attachments/assets/de5f95c6-2244-47e5-8441-e48db07602f3">
-
 ## Input
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/cc9b36ca-5c50-4771-9378-164688af8883">
 
