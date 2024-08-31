@@ -24,34 +24,34 @@ This project requires Tesseract OCR for text extraction. Follow the installation
 pip install -r requirements.txt
 
 ## Installation
+1. **Clone the repository:**
 
-Clone the repository:     
+   ```bash
+   git clone https://github.com/Bhavesh122/PS2-Medical-Diagnosis-Extraction.git
+   cd PS2-Medical-Diagnosis-Extraction
 
-git clone https://github.com/Bhavesh122/PS2-Medical-Diagnosis-Extraction.git cd PS2-Medical-Diagnosis-Extraction
-
-Install the dependencies:
-
-pip install -r requirements.txt
-
-
-#Usage
-Prepare your image and output CSV file paths: Update the image_path and output_csv variables in main.py to match your image file and desired output CSV file.
-
-Run the script:
-
-python main.py
+2. Install the dependencies:
+   
+    pip install -r requirements.txt
 
 
-Example
-Set the paths in main.py as follows:
+## Usage
+1.Configure paths: Edit the image_path and output_csv variables in main.py to specify the path to your image file and the desired output CSV file.
 
+2. Run the script
+
+   python main.py
+
+## Example 
+Modify the paths in main.py as follows:
 
 if __name__ == "__main__":
     image_path = "/path/to/your/image.png"
     output_csv = "output.csv"
     main(image_path, output_csv)
 
-Replace /path/to/your/image.png with the path to your image file and output.csv with your desired output CSV file name
+Replace /path/to/your/image.png with the path to your image file and output.csv with your chosen name for the output CSV file.
+
 
 ## Requirements
 
