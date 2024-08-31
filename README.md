@@ -40,8 +40,9 @@ In hb.csv
 
 <img width="1267" alt="image" src="https://github.com/user-attachments/assets/6dbb15bf-918b-4eb9-ae7c-aa7c8dd1aa24">
 
-[Uploading hb.csvfile_name,provisional_diagnosis
+[hb.csv](https://github.com/user-attachments/files/16825164/hb.csv)
+file_name,provisional_diagnosis
 Sample7.png,EDOF Foreign lens cataract RE
-…]()
+
 
 
