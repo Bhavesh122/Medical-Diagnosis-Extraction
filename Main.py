@@ -51,7 +51,7 @@ def process_image(image_path, output_csv):
 def main():
     # Hardcoded paths
     image_path = "/Users/bhaveshreddy/Downloads/PS2-Samples-HackRX5 2/Sample7.png"  # Path to your image file Please change it to your path
-    output_csv = "/Users/bhaveshreddy/Downloads/PS2-Samples-HackRX5 2/output72.csv"  # Path to your output CSV Please change it to your path
+    output_csv = "/Users/bhaveshreddy/Downloads/PS2-Samples-HackRX5 2/hb.csv"  # Path to your output CSV Please change it to your path
     
     process_image(image_path, output_csv)
 
