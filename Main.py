@@ -1,4 +1,5 @@
 import os
+import sys
 import pytesseract
 from PIL import Image
 import pandas as pd
@@ -37,23 +38,24 @@ def save_to_csv(data, output_path):
     df.to_csv(output_path, index=False)
     print(f"Data saved to {output_path}")
 
-def process_image(image_path, output_csv):
+def process_file(image_path):
     data = []
-    
     if image_path.lower().endswith(('.png', '.jpg', '.jpeg')):
         text = extract_text_from_image(image_path)
         provisional_diagnosis = extract_provisional_diagnosis(text)
         file_name = os.path.basename(image_path)
         data.append((file_name, provisional_diagnosis))
     
+    output_csv = os.path.join(os.path.dirname(image_path), 'provisional_diagnoses.csv')
     save_to_csv(data, output_csv)
 
 def main():
-    # Hardcoded paths
-    image_path = "/Users/bhaveshreddy/Downloads/PS2-Samples-HackRX5 2/Sample7.png"  # Path to your image file Please change it to your path
-    output_csv = "/Users/bhaveshreddy/Downloads/PS2-Samples-HackRX5 2/hb.csv"  # Path to your output CSV Please change it to your path
+    if len(sys.argv) != 2:
+        print("Usage: python main.py <image_path>")
+        sys.exit(1)
     
-    process_image(image_path, output_csv)
+    image_path = sys.argv[1]
+    process_file(image_path)
 
 if __name__ == "__main__":
     main()
