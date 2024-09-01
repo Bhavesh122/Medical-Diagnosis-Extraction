@@ -20,7 +20,7 @@ python main.py /Users/bhaveshreddy/Downloads/PS2-Samples-HackRX/Sample5.png
 On Windows (using Command Prompt or PowerShell): </br>
 
 ```bash
-python main.py "C:\Users\bhaveshreddy\Downloads\PS2-Samples-HackRX\Sample5.png" </br>
+python main.py "C:\Users\bhaveshreddy\Downloads\PS2-Samples-HackRX\Sample5.png" 
 ```
 
 Output would be in the same path , file name provisional_diagnoses.csv  </br>
