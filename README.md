@@ -8,7 +8,7 @@
 This project extracts text from medical images using Optical Character Recognition (OCR), processes the extracted text to find provisional diagnoses, and saves the results to a CSV file.
 
 ## How to run the code:
-1.Save the script as main.py.
+1.Save the script as main.py. </br>
 2  Run the script using the updated file path:
 Keep the path ready 
 On macOS or Linux:
