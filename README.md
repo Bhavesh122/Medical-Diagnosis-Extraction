@@ -8,20 +8,20 @@
 This project extracts text from medical images using Optical Character Recognition (OCR), processes the extracted text to find provisional diagnoses, and saves the results to a CSV file.
 
 ## How to run the code:
-1.Save the script as main.py. </br>
+1 Save the script as main.py. </br>
 2  Run the script using the updated file path:
-Keep the path ready 
-On macOS or Linux:
+Keep the path ready </br>
 
+On macOS or Linux: </br>
 
 python main.py /Users/bhaveshreddy/Downloads/PS2-Samples-HackRX/Sample5.png       
 
+</br>
+On Windows (using Command Prompt or PowerShell): </br>
 
-On Windows (using Command Prompt or PowerShell):
+python main.py "C:\Users\bhaveshreddy\Downloads\PS2-Samples-HackRX\Sample5.png" </br>
 
-python main.py "C:\Users\bhaveshreddy\Downloads\PS2-Samples-HackRX\Sample5.png"
-
-Output would be in the same path , file name provisional_diagnoses.csv
+Output would be in the same path , file name provisional_diagnoses.csv  </br>
 
 ## Prerequisites
 
