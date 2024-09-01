@@ -1,4 +1,4 @@
-# Team Name: Cyber Spartans
+[provisional_diagnoses.csv](https://github.com/user-attachments/files/16827808/provisional_diagnoses.csv)# Team Name: Cyber Spartans
 # Chama Bhavesh Reddy| 2025 | VIT VELLORE
 # Avala Ajitesh Reddy | 2025 | VIT VELLORE
 
@@ -95,9 +95,12 @@ Extract the value of each identified diagnosis on the handwritten form.
 ## Output
 In provisional_diagnoses.csv
 
-<img width="1267" alt="image" src="https://github.com/user-attachments/assets/6dbb15bf-918b-4eb9-ae7c-aa7c8dd1aa24">
+<img width="1248" alt="Screenshot 2024-09-01 at 12 52 06 PM" src="https://github.com/user-attachments/assets/5759b17d-4a4d-4702-ad1a-e897ac479e88">
 
-[hb.csv](https://github.com/user-attachments/files/16825164/hb.csv)
+
+[Uploading provisional_diagnofile_name,provisional_diagnosis
+Sample7.png,EDOF Foreign lens cataract RE
+ses.csv…]()
 
 
 
