@@ -98,9 +98,10 @@ In provisional_diagnoses.csv
 <img width="1248" alt="Screenshot 2024-09-01 at 12 52 06 PM" src="https://github.com/user-attachments/assets/5759b17d-4a4d-4702-ad1a-e897ac479e88">
 
 
-[Uploading provisional_diagnofile_name,provisional_diagnosis
+[provisional_diagnoses.csv](https://github.com/user-attachments/files/16827814/provisional_diagnoses.csv)
+file_name,provisional_diagnosis
 Sample7.png,EDOF Foreign lens cataract RE
-ses.csv…]()
+
 
 
 
