@@ -13,11 +13,13 @@ This project extracts text from medical images using Optical Character Recogniti
 Keep the path ready </br>
 
 On macOS or Linux: </br>
-```bash
+Change the file location accordlingly 
+```bash 
 python main.py /Users/bhaveshreddy/Downloads/PS2-Samples-HackRX/Sample5.png       
 ```
 </br>
 On Windows (using Command Prompt or PowerShell): </br>
+Change the file location accordlingly 
 
 ```bash
 python main.py "C:\Users\bhaveshreddy\Downloads\PS2-Samples-HackRX\Sample5.png" 
