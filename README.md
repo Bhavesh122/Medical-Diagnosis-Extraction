@@ -13,13 +13,15 @@ This project extracts text from medical images using Optical Character Recogniti
 Keep the path ready </br>
 
 On macOS or Linux: </br>
-
+```bash
 python main.py /Users/bhaveshreddy/Downloads/PS2-Samples-HackRX/Sample5.png       
-
+```
 </br>
 On Windows (using Command Prompt or PowerShell): </br>
 
+```bash
 python main.py "C:\Users\bhaveshreddy\Downloads\PS2-Samples-HackRX\Sample5.png" </br>
+```
 
 Output would be in the same path , file name provisional_diagnoses.csv  </br>
 
