@@ -15,14 +15,14 @@ Keep the path ready </br>
 On macOS or Linux: </br>
 Change the file location accordlingly 
 ```bash 
-python main.py /Users/bhaveshreddy/Downloads/PS2-Samples-HackRX/Sample5.png       
+python main.py /Users/bhaveshreddy/Downloads/PS2-Samples-HackRX/Sample7.png       
 ```
 </br>
 On Windows (using Command Prompt or PowerShell): </br>
 Change the file location accordlingly 
 
 ```bash
-python main.py "C:\Users\bhaveshreddy\Downloads\PS2-Samples-HackRX\Sample5.png" 
+python main.py "C:\Users\bhaveshreddy\Downloads\PS2-Samples-HackRX\Sample7.png" 
 ```
 
 Output would be in the same path , file name provisional_diagnoses.csv  </br>
@@ -77,6 +77,7 @@ Implement a system to recognize and identify medical diagnoses from handwritten 
 Extract the value of each identified diagnosis on the handwritten form.
 
 ## Input
+This for 7th sample
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/cc9b36ca-5c50-4771-9378-164688af8883">
 
 ## Output
