@@ -100,7 +100,10 @@ In provisional_diagnoses.csv
 
 [provisional_diagnoses.csv](https://github.com/user-attachments/files/16827814/provisional_diagnoses.csv)
 
+##PPT
 
+
+[final_submission_VIT_2025.pptx](https://github.com/user-attachments/files/16827815/final_submission_VIT_2025.pptx)
 
 
 
