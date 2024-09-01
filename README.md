@@ -99,8 +99,7 @@ In provisional_diagnoses.csv
 
 
 [provisional_diagnoses.csv](https://github.com/user-attachments/files/16827814/provisional_diagnoses.csv)
-file_name,provisional_diagnosis
-Sample7.png,EDOF Foreign lens cataract RE
+
 
 
 
