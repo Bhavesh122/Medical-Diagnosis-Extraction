@@ -7,6 +7,22 @@
 
 This project extracts text from medical images using Optical Character Recognition (OCR), processes the extracted text to find provisional diagnoses, and saves the results to a CSV file.
 
+## How to run the code:
+1.Save the script as main.py.
+2  Run the script using the updated file path:
+Keep the path ready 
+On macOS or Linux:
+
+
+python main.py /Users/bhaveshreddy/Downloads/PS2-Samples-HackRX/Sample5.png       
+
+
+On Windows (using Command Prompt or PowerShell):
+
+python main.py "C:\Users\bhaveshreddy\Downloads\PS2-Samples-HackRX\Sample5.png"
+
+Output would be in the same path , file name provisional_diagnoses.csv
+
 ## Prerequisites
 
 ### 1. Tesseract OCR
@@ -77,7 +93,7 @@ Extract the value of each identified diagnosis on the handwritten form.
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/cc9b36ca-5c50-4771-9378-164688af8883">
 
 ## Output
-In hb.csv
+In provisional_diagnoses.csv
 
 <img width="1267" alt="image" src="https://github.com/user-attachments/assets/6dbb15bf-918b-4eb9-ae7c-aa7c8dd1aa24">
 
